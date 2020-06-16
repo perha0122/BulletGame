@@ -646,13 +646,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 474256402}
-  m_LocalRotation: {x: -0.003493986, y: 0.95882654, z: -0.011803181, w: -0.28372553}
-  m_LocalPosition: {x: 0.53, y: 0.7, z: 1.39}
+  m_LocalRotation: {x: -0.2559321, y: 0.9246665, z: -0.042278685, w: -0.2787528}
+  m_LocalPosition: {x: 2.06, y: 3.14, z: 3.75}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 12.76, y: -149.578, z: -27.459002}
 --- !u!1001 &743447128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -960,7 +960,7 @@ PrefabInstance:
     - target: {fileID: 1104312061511123299, guid: 0466572e326e89b40a03259964af3eab,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8
+      value: -8
       objectReference: {fileID: 0}
     - target: {fileID: 1104312061511123299, guid: 0466572e326e89b40a03259964af3eab,
         type: 3}
@@ -1015,8 +1015,14 @@ PrefabInstance:
     - target: {fileID: 7638546111430604846, guid: 0466572e326e89b40a03259964af3eab,
         type: 3}
       propertyPath: m_Name
-      value: Cylinder
+      value: Spawner
       objectReference: {fileID: 0}
+    - target: {fileID: 9075004963011067053, guid: 0466572e326e89b40a03259964af3eab,
+        type: 3}
+      propertyPath: bulletPrefab
+      value: 
+      objectReference: {fileID: 2083928502524060606, guid: d01c6912173422b4bb519c4fe5f800f5,
+        type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0466572e326e89b40a03259964af3eab, type: 3}
 --- !u!1001 &3651628422302549362
@@ -1026,15 +1032,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 487387554813563690, guid: d01c6912173422b4bb519c4fe5f800f5,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: 754f8296e7b590a4183ec6768dab928d, type: 2}
     - target: {fileID: 2083928502524060606, guid: d01c6912173422b4bb519c4fe5f800f5,
         type: 3}
       propertyPath: m_Name
-      value: Sphere
+      value: bullte
       objectReference: {fileID: 0}
     - target: {fileID: 8295459948885340557, guid: d01c6912173422b4bb519c4fe5f800f5,
         type: 3}
