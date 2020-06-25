@@ -17,13 +17,14 @@ public class Bullet : MonoBehaviour
     }
 
     // Update is called once per frame
-    void OnIriggerEnter(Collider other) { 
+    void OnTriggerEnter(Collider other) { 
     if (other.tag == "Player")
         {
             PlayerController playerController = other.GetComponent<PlayerController>();
             if (playerController != null)
             {
                 playerController.Die();
+                 
             }
         }
         
